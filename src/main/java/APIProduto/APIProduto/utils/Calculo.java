@@ -11,9 +11,12 @@ public class Calculo
     {
         if(pedido.getParcelas() >= 10)
         {
-            Double valorTotalAcressimo = pedido.getValorTotal() + (pedido.getValorTotal() * 0.1);
-            pedido.setValorTotal(valorTotalAcressimo);
-            return pedido;
+            Double valorT = 0.0;
+            for(Itens p : pedido.getItens()){
+                valorT=valorT+p.getPrecoTotal();
+
+            }
+            pedido.setValorTotal(valorT);
         }
         else
         {

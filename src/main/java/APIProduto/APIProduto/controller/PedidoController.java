@@ -1,6 +1,6 @@
 package APIProduto.APIProduto.controller;
 
-import APIProduto.APIProduto.PedidoDTO.PedidoDTO;
+
 import APIProduto.APIProduto.entity.Pedido;
 import APIProduto.APIProduto.repository.PedidoRepository;
 import APIProduto.APIProduto.utils.Calculo;
