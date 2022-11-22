@@ -79,6 +79,10 @@ public class Pedido {
         return valorTotal;
     }
 
+    public void setValorTotal(Double valorTotal) {
+        this.valorTotal = valorTotal;
+    }
+
     public List<Itens> getItens() {
         return itens;
     }

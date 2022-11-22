@@ -53,6 +53,10 @@ public class Itens {
         return precoTotal;
     }
 
+    public void setPrecoTotal(Double precoTotal) {
+        this.precoTotal = precoTotal;
+    }
+
     public Integer getQuantidade() {
         return quantidade;
     }
